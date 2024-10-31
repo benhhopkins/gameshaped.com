@@ -1,0 +1,28 @@
+{
+  "name": "gameshapedsoftware.com",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "gameshapedsoftware",
+  "license": "ISC",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^5.0.0",
+    "map-stream": "0.0.7",
+    "markdown-it": "^8.4.2",
+    "markdown-it-attrs": "^2.4.1",
+    "sass": "^1.36.0"
+  },
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
