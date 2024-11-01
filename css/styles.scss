@@ -12,21 +12,16 @@
 
 $font-code: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 
-$bg-color-dark: #1d2833;
-$bg-color-light: #1d2833;
-//$bg-color-light: #b5bccc;
-$bg-color-default: #{$bg-color-light};
-@media (prefers-color-scheme: dark) {
-    $bg-color-default: #{$bg-color-dark};
-}
+$bg-color-dark: #000000;
+$bg-color-light: #1f2022;
 $bg-color-code: #0e1720;
 
-$font-color: #cfd7e9;
-$font-color-link: #55e0ad;
-$font-color-visited: #3a9bff;
-$font-color-button: #E83F6F;
-$font-color-media: #b8c0d3;
-$font-color-strong: #FFBF00;
+$font-color: #d6d6d6;
+$font-color-link: #3ab7ff;
+$font-color-visited: #3ab7ff;
+$font-color-button: #3ab7ff;
+$font-color-media: #d6d6d6;
+$font-color-strong: #da2f45;
 
 // scaling, method credit https://css-tricks.com/optimizing-large-scale-displays/
 $base-font-size: 1em;
@@ -66,7 +61,7 @@ body {
     width: 100%;
     overflow-x: hidden;
 
-    background-color: $bg-color-light;
+    background-color: $bg-color-dark;
     color: $font-color;
     
     font-size: .9em;
@@ -212,8 +207,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 hr {
-    margin: 0em 1.5em 0em 1.5em;
-    border-top: 1px solid $font-color;
+    margin: 0;
+    border-top: 1px solid $bg-color-light;
     //border-bottom: 1px solid adjust-color($bg-color-light, $alpha: -.5);
 }
 
@@ -284,7 +279,6 @@ li {
 .media {
     margin: .5em 0em .5em 0em;
     color: $font-color-media;
-    background-color: $bg-color-dark;
     text-align: center;
     line-height: 0em;
     padding: 0em;
@@ -353,13 +347,21 @@ li {
     }
 }
 
+.media-smaller {
+    text-align: center;
+    img {
+        max-width: 66%;
+        height: auto;
+        image-rendering: pixelated;
+    }
+}
+
 .media-group {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 0.5em;
     place-items: center;
     justify-content: center;
-    background-color: $bg-color-dark;
 }
 
 .media-group img, video {
@@ -500,7 +502,7 @@ nav {
     }
 
     @media #{$mq-small} {
-        margin-right: 1.25em;
+        margin-right: .5em;
         padding: 0em;
         text-align: right;
         justify-self: right;
@@ -526,6 +528,22 @@ nav {
     @media #{$mq-small} {
         padding: 1em 0em .5em 0em;
     }
+
+    img {
+        max-width: 80%;
+        padding: 0px;
+        border: 0px;
+
+        &:hover {
+            border: 0px;
+            background: $font-color-button;
+        }
+
+        &:focus {
+            border: 0px;
+            background: $font-color-button;
+        }
+    }
 }
 
 .header-item {
@@ -535,49 +553,13 @@ nav {
 .header-button {
     padding: .3em .1em 0em 0em;
 }
-/*
-a.nav-dark {
-    color: $bg-color-light;
-    text-decoration: none;
-  
-    &:hover,
-    &:focus {
-        color: $font-color-button;
-        text-decoration: none;
-        box-shadow: -4px 0px 0px 0px $bg-color-dark,
-                    3px 0px 0px 0px $bg-color-dark;
-        background: $bg-color-dark;
-    }
-}
 
-a.nav-light {
-    color: $font-color-link;
-    text-decoration: none;
-  
-    &:hover,
-    &:focus {
-        color: $font-color-button;
-        text-decoration: none;
-        box-shadow: -4px 0px 0px 0px $bg-color-dark,
-                    3px 0px 0px 0px $bg-color-dark;
-        background: $bg-color-dark;
-    }
-}
-
-.bg-dark {
-    background-color: $bg-color-dark;
-}
-
-.bg-light {
-    background-color: $bg-color-light;
-}
-*/
 #footer {
     grid-area: footer;
     align-self: end;
     text-align: center;
     color: $font-color-media;
-    background-color: $bg-color-light;
+    background-color: $bg-color-dark;
     font-size: 16px;
     @extend %text-normal;
 }
