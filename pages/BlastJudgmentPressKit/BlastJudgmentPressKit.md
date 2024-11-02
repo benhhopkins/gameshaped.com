@@ -56,7 +56,7 @@ Blast Judgment is being created by solo developer Gameshaped, based in New Engla
 
 [Trailers Download Drive](https://drive.google.com/drive/folders/1Kezh-jlmaHx8ZRJ93ijAslZEg--FK57D?usp=drive_link) {.button}
 
-<div class="media-embed" style="text-align: center;"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; right: 0" src="https://www.youtube.com/watch?v=BZkr4ZTnFMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="media"><iframe width="560" height="315" src="https://www.youtube.com/embed/BZkr4ZTnFMo?si=XdCDr36-slIx3EKh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 # <a id="screens"></a> Screenshots
 

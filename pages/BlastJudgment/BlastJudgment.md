@@ -8,8 +8,10 @@
 
 Wield an unholy arsenal in this FPS Roguelite. Plunder arcane relics and practice forgotten rituals to take on armies of twisted foes. Seek the cruel gods that pulled you from your grave, and inflict your BLAST JUDGMENT. 
 
-<div class="media-embed"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; right: 0" src="https://www.youtube.com/watch?v=BZkr4ZTnFMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="media-embed"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; right: 0" src="https://www.youtube.com/embed/BZkr4ZTnFMo?si=XdCDr36-slIx3EKh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 <br/>
 
 <div class="media"><iframe src="https://store.steampowered.com/widget/3042120/?utm_source=gameshaped_website" frameborder="0" width="646" height="190"></iframe></media>
+
+<br/>
