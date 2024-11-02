@@ -1,7 +1,7 @@
-![Blast Judgment title](images/blast_judgement_title_colored_pal_lines.png) {.media-smaller}
+![Blast Judgment title](/pages/BlastJudgment/images/blast_judgement_title_colored_pal_lines.png) {.media-smaller}
 
-<a href="https://store.steampowered.com/app/3042120/Blast_Judgment"><img src="images/steam-logo-tp.png" height="28px" style="padding:1px; margin-bottom:-4px; border:0px"/>Steam Page</a>
-[Press Kit](../BlastJudgmentPressKit/)
+<a href="https://store.steampowered.com/app/3042120/Blast_Judgment"><img src="/pages/BlastJudgment/images/steam-logo-tp.png" height="28px" style="padding:1px; margin-bottom:-4px; border:0px"/>Steam Page</a>
+[Press Kit](/pages/BlastJudgmentPressKit/)
 [YouTube](https://www.youtube.com/@Gameshaped)
 [Discord](https://discord.gg/QQX8aPsEzD)
 {.article-contents}
