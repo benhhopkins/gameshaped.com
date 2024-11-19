@@ -18,10 +18,9 @@
 Developer/Publisher: **Gameshaped Software**  
 Links:  
 - [Steam Page](https://store.steampowered.com/app/3042120/Blast_Judgment)
+- [Bluesky](https://bsky.app/profile/gameshaped.com)
 - [YouTube](https://www.youtube.com/@Gameshaped)
 - [Community Discord](https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fdiscord.gg%2FQQX8aPsEzD)
-- [Twitter](https://x.com/gameshapedsoft)
-- [Bluesky](https://bsky.app/profile/gameshaped.bsky.social)
 - [Google Drive PressKit folder](https://drive.google.com/drive/folders/1S6ECVvWqStp1l1fYZMPHmWKGyItJ7h90?usp=sharing)
 
 Release Date: TBA  
